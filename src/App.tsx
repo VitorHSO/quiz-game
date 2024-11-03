@@ -6,14 +6,14 @@ import Game from './components/Game.tsx';
 import { useQuiz, Question, QuestionsResponse } from './QuizContext.tsx';
 
 function App() {
-
+  const api_opendb = import.meta.env.VITE_OPENTDB_URL_API;
   const {state, dispatch} = useQuiz();
 
   async function fetchQuestion() {
     try {
       dispatch({type: "setStatus", payload: "fetching"});
       dispatch({type: "setUserAnswer", payload: null});
-      const response = await fetch('https://opentdb.com/api.php?amount=1&category=18');
+      const response = await fetch(api_opendb);
       let data : QuestionsResponse = await(response.json());
       
       if (data.response_code === 0) {
