@@ -45,14 +45,14 @@ Bem-vindo ao **Quiz de TI**, uma aplicação interativa que testa seus conhecime
 
 ## 🎮 Como Jogar
 
-Acesse: https://vitorhso.github.io/quiz-game/
+1. Acesse: https://vitorhso.github.io/quiz-game/
 
-1. A cada início, uma nova pergunta será exibida, gerada aleatoriamente a partir da API OpenTDB.
+2. A cada início, uma nova pergunta será exibida, gerada aleatoriamente a partir da API OpenTDB.
 
-2. Escolha a resposta correta entre as opções disponíveis.
+3. Escolha a resposta correta entre as opções disponíveis.
 
-3. Seu placar será atualizado automaticamente, exibindo o número de respostas corretas e incorretas.
+4. Seu placar será atualizado automaticamente, exibindo o número de respostas corretas e incorretas.
 
-4. Continue jogando até atingir seu melhor desempenho!
+5. Continue jogando até atingir seu melhor desempenho!
 
 
