@@ -20,7 +20,7 @@ Bem-vindo ao **Quiz de TI**, uma aplicação interativa que testa seus conhecime
 
 ## 📦 Pré-requisitos
 
-- **Node.js** e **npm** (ou **Yarn**) instalados.
+- **Node.js**, **npm** (ou **Yarn**) e **Vite** instalados.
 
 ## 🚀 Instalação e Uso
 
@@ -37,15 +37,16 @@ Bem-vindo ao **Quiz de TI**, uma aplicação interativa que testa seus conhecime
 
 3. **Inicie o servidor de desenvolvimento**:
     ```bash
-    npm start
-    # ou
-    yarn start
+    vite
 
 4. **Acesse o aplicativo no navegador**:
     
-    Abra http://localhost:3000 para visualizar o quiz.
+    Abra a URL gerada para visualizar o quiz.
 
 ## 🎮 Como Jogar
+
+Acesse: https://vitorhso.github.io/quiz-game/
+
 1. A cada início, uma nova pergunta será exibida, gerada aleatoriamente a partir da API OpenTDB.
 
 2. Escolha a resposta correta entre as opções disponíveis.
